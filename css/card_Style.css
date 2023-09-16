@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del menú */
+.menu {
+    background-color: darkblue;
+    color: #fff; 
+    width: 250px; 
+    height: 875px; 
+    float: left;
+}
+
+.menu ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.menu ul li {
+    padding: 10px 20px; 
+    border-bottom: 1px solid white; 
+}
+
+.menu ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    display: block; 
+}
+
+.menu ul li:hover {
+    background-color: black; 
+}
+
+.menu h1 {
+    text-align: center;
+    margin-top: 250px;
+}
+
+/* Estilo del contenido */
+.contenido {
+    padding: 20px;
+    margin-left: 260px;
+}
+
+/* Estilo de las columnas */
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.column {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de las tarjetas */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card.dragging {
+    opacity: 0.7;
+    border-style: dashed;
+    cursor: grab;
+}
+
+.column.dragover {
+    border-style: dashed;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff; 
+    clear: both;
+    text-align: center; 
+    padding: 10px; 
+    position: absolute; 
+    width: 100%; 
+    bottom: 0;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del menú */
+.menu {
+    background-color: darkblue;
+    color: #fff; 
+    width: 250px; 
+    height: 875px; 
+    float: left;
+}
+
+.menu ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.menu ul li {
+    padding: 10px 20px; 
+    border-bottom: 1px solid white; 
+}
+
+.menu ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    display: block; 
+}
+
+.menu ul li:hover {
+    background-color: black; 
+}
+
+.menu h1 {
+    text-align: center;
+    margin-top: 250px;
+}
+
+/* Estilo del contenido */
+.contenido {
+    padding: 20px;
+    margin-left: 260px;
+}
+
+/* Estilo del formulario */
+#formulario {
+    margin-bottom: 20px;
+}
+
+#formulario label,
+#formulario input,
+#formulario button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo de la tabla */
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla th,
+#tabla td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #333;
+    color: #fff; 
+    clear: both;
+    text-align: center; 
+    padding: 10px; 
+    position: absolute; 
+    width: 100%; 
+    bottom: 0;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
